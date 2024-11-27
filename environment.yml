@@ -9,4 +9,5 @@ dependencies:
   - gunicorn
   - mysql-connector-python
   - pytest
-
+  - requests
+prefix: /home/bijan/anaconda3/envs/conda_flask
