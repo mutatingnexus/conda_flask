@@ -2,7 +2,7 @@ FROM continuumio/miniconda3
 
 WORKDIR /usr/src/app
 
-COPY environment.yml app.py .
+COPY environment.yml app.py ./
 
 RUN conda env create -f environment.yml
 
